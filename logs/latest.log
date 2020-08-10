@@ -1,0 +1,83 @@
+[21:15:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[21:15:10] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:15:10] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:15:10] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:15:10] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:15:10] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:15:10] [main/INFO]: Reloading ResourceManager: Default
+[21:15:11] [Worker-Main-4/INFO]: Loaded 7 recipes
+[21:15:12] [Worker-Main-4/INFO]: Loaded 927 advancements
+[21:15:13] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[21:15:13] [Server thread/INFO]: Loading properties
+[21:15:13] [Server thread/INFO]: Default game type: SURVIVAL
+[21:15:13] [Server thread/INFO]: Generating keypair
+[21:15:13] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Nieprawid³owe dojœcie
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at yd$1.run(SourceFile:90) [server.jar:?]
+[21:15:13] [Server thread/INFO]: Starting Minecraft server on 25.98.231.101:25565
+[21:15:13] [Server thread/INFO]: Using default channel type
+[21:15:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:15:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:15:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:15:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:15:14] [Server thread/INFO]: Preparing level "world"
+[21:15:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:15:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:15:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:15:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:15:17] [Server thread/INFO]: Preparing spawn area: 1%
+[21:15:18] [Server thread/INFO]: Time elapsed: 2756 ms
+[21:15:18] [Server thread/INFO]: Done (3.455s)! For help, type "help"
+[21:15:47] [Server thread/INFO]: redgato[/25.98.231.101:57680] logged in with entity id 321 at (-101.28533903618845, 72.0, -232.3899891580138)
+[21:15:47] [Server thread/INFO]: redgato joined the game
+[21:16:00] [Server thread/INFO]: Domador[/25.99.18.108:51758] logged in with entity id 578 at (-241.40952771271813, 69.0, -111.75432780953533)
+[21:16:00] [Server thread/INFO]: Domador joined the game
+[21:17:05] [Server thread/INFO]: Made redgato a server operator
+[21:17:29] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
+[21:23:31] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/1692, l='ServerLevel[world]', x=-241.64, y=69.00, z=-85.83]
+[21:23:31] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/1692, l='ServerLevel[world]', x=-241.64, y=69.00, z=-85.83]
+[21:34:01] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
+[21:56:26] [Server thread/INFO]: redgato has made the advancement [A Seedy Place]
+[21:57:49] [Server thread/INFO]: redgato lost connection: Disconnected
+[21:57:49] [Server thread/INFO]: redgato left the game
+[21:58:10] [Server thread/INFO]: redgato[/25.98.231.101:57879] logged in with entity id 7176 at (-734.5433693605366, 67.0, -709.7055622552347)
+[21:58:10] [Server thread/INFO]: redgato joined the game
+[21:58:11] [Server thread/INFO]: Czapa[/25.99.12.20:50180] logged in with entity id 7376 at (-326.60100287189624, 12.0, -438.0859127546768)
+[21:58:11] [Server thread/INFO]: Czapa joined the game
+[21:58:51] [Server thread/INFO]: Czapa lost connection: Disconnected
+[21:58:51] [Server thread/INFO]: Czapa left the game
+[21:59:44] [Server thread/INFO]: Czapa[/25.99.12.20:50295] logged in with entity id 7992 at (-326.5109443979995, 12.0, -422.4462656120572)
+[21:59:44] [Server thread/INFO]: Czapa joined the game
+[22:06:34] [Server thread/INFO]: Czapa has made the advancement [We Need to Go Deeper]
+[22:10:21] [Server thread/WARN]: Horse (vehicle of Czapa) moved wrongly! 0.2943047167578925
+[22:10:21] [Server thread/WARN]: Horse (vehicle of Czapa) moved wrongly! 0.7101914262478317
+[22:13:26] [Server thread/INFO]: Czapa lost connection: Disconnected
+[22:13:26] [Server thread/INFO]: Czapa left the game
+[22:29:53] [Server thread/INFO]: Domador was blown up by Creeper
+[22:37:42] [Server thread/INFO]: redgato lost connection: Disconnected
+[22:37:42] [Server thread/INFO]: redgato left the game
+[22:37:45] [Server thread/INFO]: Domador lost connection: Disconnected
+[22:37:45] [Server thread/INFO]: Domador left the game
+[23:36:28] [Server thread/INFO]: Stopping server
+[23:36:28] [Server thread/INFO]: Saving players
+[23:36:28] [Server thread/INFO]: Saving worlds
+[23:36:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:36:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:36:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
