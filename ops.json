@@ -4,5 +4,11 @@
     "name": "redgato",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eaf0f0e8-0b11-39a4-951c-29b21f31303b",
+    "name": "Domador",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
