@@ -1,15 +1,17 @@
-[19:23:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[19:23:40] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:23:40] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:23:40] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:23:40] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:23:40] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:23:40] [main/INFO]: Reloading ResourceManager: Default
-[19:23:41] [Worker-Main-4/INFO]: Loaded 7 recipes
-[19:23:41] [Worker-Main-4/INFO]: Loaded 927 advancements
-[19:23:43] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[19:23:43] [Server thread/INFO]: Loading properties
-[19:23:43] [Server console handler/ERROR]: Exception handling console input
+[11:05:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[11:05:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:05:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:05:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:05:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:05:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:05:44] [main/INFO]: Reloading ResourceManager: Default
+[11:05:45] [Worker-Main-6/INFO]: Loaded 7 recipes
+[11:05:46] [Worker-Main-6/INFO]: Loaded 927 advancements
+[11:05:49] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[11:05:49] [Server thread/INFO]: Loading properties
+[11:05:49] [Server thread/INFO]: Default game type: SURVIVAL
+[11:05:49] [Server thread/INFO]: Generating keypair
+[11:05:49] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Nieprawid³owe dojœcie
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
@@ -23,306 +25,60 @@ java.io.IOException: Nieprawid³owe dojœcie
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
 	at yd$1.run(SourceFile:90) [server.jar:?]
-[19:23:43] [Server thread/INFO]: Default game type: SURVIVAL
-[19:23:43] [Server thread/INFO]: Generating keypair
-[19:23:43] [Server thread/INFO]: Starting Minecraft server on 25.98.231.101:25565
-[19:23:43] [Server thread/INFO]: Using default channel type
-[19:23:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:23:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:23:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:23:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:23:44] [Server thread/INFO]: Preparing level "world"
-[19:23:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:23:46] [Server thread/INFO]: Preparing spawn area: 0%
-[19:23:46] [Server thread/INFO]: Preparing spawn area: 0%
-[19:23:46] [Server thread/INFO]: Preparing spawn area: 0%
-[19:23:47] [Server thread/INFO]: Preparing spawn area: 0%
-[19:23:48] [Server thread/INFO]: Time elapsed: 3199 ms
-[19:23:48] [Server thread/INFO]: Done (4.084s)! For help, type "help"
-[19:27:30] [Server thread/INFO]: Domador[/25.99.18.108:52352] logged in with entity id 363 at (-407.745551109856, 15.0, -683.2466243942753)
-[19:27:30] [Server thread/INFO]: Domador joined the game
-[19:28:24] [Server thread/INFO]: Domador lost connection: Disconnected
-[19:28:24] [Server thread/INFO]: Domador left the game
-[19:28:37] [Server thread/INFO]: Domador[/25.99.18.108:52362] logged in with entity id 727 at (-418.6384138595939, 22.0, -673.7062310544474)
-[19:28:37] [Server thread/INFO]: Domador joined the game
-[19:30:07] [Server thread/INFO]: Czapa[/25.99.12.20:51335] logged in with entity id 1210 at (-253.57382663720603, 66.0, -121.59512612684398)
-[19:30:07] [Server thread/INFO]: Czapa joined the game
-[19:34:05] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/2398, l='ServerLevel[world]', x=-237.20, y=69.00, z=-88.10]
-[19:34:05] [Server thread/INFO]: [Domador: Teleported Domador to -221.5, 79.0, -90.5]
-[19:34:05] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/2398, l='ServerLevel[world]', x=-237.20, y=69.00, z=-88.10]
-[19:53:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/5832, l='ServerLevel[world]', x=-237.20, y=69.00, z=-88.89]
-[19:53:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/5832, l='ServerLevel[world]', x=-237.20, y=69.00, z=-88.89]
-[19:56:32] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6239, l='ServerLevel[world]', x=-241.30, y=69.00, z=-87.35]
-[19:56:32] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6239, l='ServerLevel[world]', x=-241.30, y=69.00, z=-87.35]
-[20:03:28] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=20, y=34, z=-5} fu{x=21, y=34, z=-4}
-[20:03:28] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=20, y=34, z=-5} fu{x=21, y=34, z=-4}
-[20:03:28] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=20, y=34, z=-5} fu{x=21, y=34, z=-4}
-[20:03:28] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=20, y=34, z=-5} fu{x=21, y=34, z=-4}
-[20:04:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=60, y=34, z=-3} fu{x=60, y=33, z=-3}
-[20:04:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=60, y=34, z=-3} fu{x=60, y=33, z=-3}
-[20:04:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=60, y=34, z=-3} fu{x=60, y=33, z=-3}
-[20:06:03] [Server thread/INFO]: Czapa lost connection: Disconnected
-[20:06:03] [Server thread/INFO]: Czapa left the game
-[20:13:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10750, l='ServerLevel[world]', x=-240.01, y=69.00, z=-89.05]
-[20:27:22] [Server thread/INFO]: Czapa[/25.99.12.20:51924] logged in with entity id 11994 at (52.23941516205676, 33.0, -2.696685221015323)
-[20:27:22] [Server thread/INFO]: Czapa joined the game
-[20:34:10] [Server thread/INFO]: Domador lost connection: Disconnected
-[20:34:10] [Server thread/INFO]: Domador left the game
-[20:34:10] [Server thread/INFO]: Czapa lost connection: Disconnected
-[20:34:10] [Server thread/INFO]: Czapa left the game
-[20:37:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 192166ms or 3843 ticks behind
-[20:39:20] [Server thread/INFO]: Czapa[/25.99.12.20:52160] logged in with entity id 13842 at (-42.96144502451061, 31.0, -8.218297614132933)
-[20:39:20] [Server thread/INFO]: Czapa joined the game
-[20:45:26] [Server thread/INFO]: Domador[/25.99.18.108:52801] logged in with entity id 14936 at (-276.8097117885285, 64.0, -115.65549696066685)
-[20:45:26] [Server thread/INFO]: Domador joined the game
-[20:48:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/15590, l='ServerLevel[world]', x=-237.76, y=69.00, z=-88.85]
-[20:48:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/15590, l='ServerLevel[world]', x=-237.76, y=69.00, z=-88.85]
-[20:51:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[20:52:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[20:52:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16358ms or 327 ticks behind
-[20:52:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3477ms or 69 ticks behind
-[20:54:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
-[20:55:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12790ms or 255 ticks behind
-[20:55:18] [Server thread/INFO]: redgato[/25.98.231.101:50343] logged in with entity id 17600 at (-378.2368877867437, 39.0, -642.872881806403)
-[20:55:18] [Server thread/INFO]: redgato joined the game
-[20:55:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6435ms or 128 ticks behind
-[20:55:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6296ms or 125 ticks behind
-[20:56:47] [Server thread/INFO]: redgato lost connection: Disconnected
-[20:56:47] [Server thread/INFO]: redgato left the game
-[20:56:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[21:00:59] [Server thread/INFO]: redgato[/25.98.231.101:50412] logged in with entity id 20513 at (-378.2368877867437, 39.0, -642.872881806403)
-[21:00:59] [Server thread/INFO]: redgato joined the game
-[21:13:06] [Server thread/INFO]: Czapa lost connection: Disconnected
-[21:13:06] [Server thread/INFO]: Czapa left the game
-[21:14:58] [Server thread/INFO]: Czapa[/25.99.12.20:52389] logged in with entity id 25457 at (-26.301179234374498, 22.0, 76.94821246075414)
-[21:14:58] [Server thread/INFO]: Czapa joined the game
-[21:24:13] [Server thread/INFO]: Czapa has made the advancement [Hidden in the Depths]
-[21:25:49] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=17, z=87} fu{x=-14, y=19, z=88}
-[21:25:49] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=17, z=87} fu{x=-14, y=19, z=88}
-[21:25:49] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=17, z=87} fu{x=-14, y=19, z=88}
-[21:27:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[21:27:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2180ms or 43 ticks behind
-[21:38:29] [Server thread/INFO]: redgato has made the advancement [Cover Me With Diamonds]
-[21:41:00] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=13, z=87} fu{x=-12, y=30, z=96}
-[21:41:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-17, y=10, z=77} fu{x=-17, y=9, z=78}
-[21:41:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-17, y=10, z=77} fu{x=-17, y=9, z=78}
-[21:41:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-17, y=10, z=77} fu{x=-17, y=9, z=78}
-[21:41:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-17, y=10, z=77} fu{x=-17, y=9, z=78}
-[21:41:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-17, y=10, z=77} fu{x=-17, y=9, z=78}
-[21:41:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-17, y=10, z=77} fu{x=-17, y=9, z=78}
-[21:42:29] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-30, y=3, z=73} fu{x=-31, y=5, z=72}
-[21:42:29] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-30, y=3, z=73} fu{x=-31, y=5, z=72}
-[21:42:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-30, y=3, z=73} fu{x=-31, y=5, z=72}
-[21:42:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-30, y=3, z=73} fu{x=-31, y=5, z=72}
-[21:42:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-30, y=3, z=73} fu{x=-31, y=5, z=72}
-[21:42:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-30, y=3, z=73} fu{x=-31, y=5, z=72}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=11, z=81} fu{x=-17, y=10, z=83}
-[21:42:58] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36998, l='ServerLevel[world]', x=-238.36, y=69.00, z=-87.91]
-[21:44:11] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-14, y=11, z=86} fu{x=-14, y=10, z=85}
-[21:44:15] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-14, y=11, z=92} fu{x=-15, y=11, z=91}
-[21:45:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-26, y=12, z=86} fu{x=-27, y=11, z=85}
-[21:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-20, y=19, z=61} fu{x=-17, y=20, z=63}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:46:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-21, y=15, z=60} fu{x=-20, y=14, z=60}
-[21:47:25] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
-[21:47:33] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
-[21:47:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-38, y=20, z=57} fu{x=-40, y=23, z=59}
-[21:47:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-38, y=20, z=57} fu{x=-40, y=23, z=59}
-[21:47:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-38, y=20, z=57} fu{x=-40, y=23, z=59}
-[21:47:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-38, y=20, z=57} fu{x=-40, y=23, z=59}
-[21:47:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-38, y=20, z=57} fu{x=-40, y=23, z=59}
-[21:49:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-16, y=15, z=65} fu{x=-17, y=15, z=66}
-[21:49:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-16, y=15, z=65} fu{x=-17, y=15, z=66}
-[21:49:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-16, y=15, z=65} fu{x=-17, y=15, z=66}
-[21:49:20] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-19, y=15, z=74} fu{x=-18, y=16, z=73}
-[21:50:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-49, y=20, z=53}
-[21:50:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-49, y=20, z=53}
-[21:50:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-49, y=20, z=53}
-[21:50:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-49, y=20, z=53}
-[21:50:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-49, y=20, z=53}
-[21:50:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-49, y=20, z=53}
-[21:50:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-50, y=17, z=54}
-[21:50:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-50, y=17, z=54}
-[21:50:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-50, y=17, z=54}
-[21:50:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-48, y=21, z=53} fu{x=-50, y=17, z=54}
-[21:50:45] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-51, y=17, z=54} fu{x=-52, y=17, z=54}
-[21:50:45] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-51, y=17, z=54} fu{x=-52, y=17, z=54}
-[21:50:45] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-51, y=17, z=54} fu{x=-52, y=17, z=54}
-[21:50:47] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-52, y=19, z=54} fu{x=-53, y=19, z=54}
-[21:50:47] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-52, y=19, z=54} fu{x=-53, y=19, z=54}
-[21:50:47] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-52, y=19, z=54} fu{x=-53, y=19, z=54}
-[21:53:33] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-79, y=16, z=122} fu{x=-76, y=17, z=119}
-[21:55:11] [Server thread/INFO]: redgato has made the advancement [Hidden in the Depths]
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=14, z=64} fu{x=5, y=13, z=64}
-[22:00:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=5, y=11, z=49} fu{x=4, y=10, z=50}
-[22:03:55] [Server thread/INFO]: Domador was slain by Zombie
-[22:08:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[22:09:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2265ms or 45 ticks behind
-[22:10:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-22, y=7, z=69} fu{x=-22, y=6, z=69}
-[22:10:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-18, y=6, z=66} fu{x=-17, y=5, z=65}
-[22:10:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-18, y=6, z=66} fu{x=-17, y=5, z=65}
-[22:10:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-18, y=6, z=66} fu{x=-17, y=5, z=65}
-[22:11:14] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-15, y=5, z=52} fu{x=-15, y=4, z=52}
-[22:11:14] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-15, y=5, z=52} fu{x=-15, y=4, z=52}
-[22:11:15] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-15, y=5, z=52} fu{x=-16, y=4, z=52}
-[22:11:15] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-14, y=6, z=54} fu{x=-16, y=4, z=52}
-[22:11:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-13, y=4, z=37} fu{x=-12, y=4, z=36}
-[22:11:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-13, y=4, z=37} fu{x=-12, y=4, z=38}
-[22:12:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-3, y=8, z=22} fu{x=-4, y=7, z=22}
-[22:12:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=29, y=12, z=184} fu{x=29, y=11, z=184}
-[22:12:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=24, y=14, z=172} fu{x=23, y=14, z=172}
-[22:12:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=24, y=14, z=172} fu{x=23, y=14, z=172}
-[22:12:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=24, y=14, z=172} fu{x=23, y=14, z=172}
-[22:12:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=24, y=14, z=172} fu{x=23, y=14, z=172}
-[22:12:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=22, y=14, z=172} fu{x=23, y=14, z=174}
-[22:12:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=22, y=14, z=172} fu{x=23, y=14, z=174}
-[22:12:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=22, y=14, z=172} fu{x=23, y=14, z=174}
-[22:12:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=22, y=14, z=172} fu{x=23, y=14, z=174}
-[22:13:46] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=4, y=13, z=11} fu{x=4, y=11, z=12}
-[22:15:09] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=7, y=11, z=116} fu{x=6, y=12, z=113}
-[22:15:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=8, y=18, z=29} fu{x=12, y=16, z=26}
-[22:15:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=8, y=18, z=29} fu{x=12, y=16, z=26}
-[22:15:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=8, y=18, z=29} fu{x=12, y=16, z=26}
-[22:15:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=9, y=13, z=101} fu{x=10, y=14, z=101}
-[22:15:52] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=12, y=21, z=16} fu{x=13, y=20, z=18}
-[22:15:52] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=12, y=21, z=16} fu{x=13, y=20, z=18}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=18, y=15, z=82} fu{x=18, y=14, z=83}
-[22:16:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=10, y=14, z=74} fu{x=11, y=14, z=75}
-[22:16:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=10, y=14, z=74} fu{x=11, y=14, z=75}
-[22:16:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=10, y=14, z=74} fu{x=11, y=14, z=75}
-[22:16:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=10, y=14, z=74} fu{x=11, y=14, z=75}
-[22:16:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=10, y=14, z=74} fu{x=11, y=14, z=75}
-[22:16:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=10, y=14, z=74} fu{x=11, y=14, z=75}
-[22:16:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=16, y=22, z=37} fu{x=16, y=21, z=37}
-[22:16:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=16, y=22, z=37} fu{x=16, y=21, z=37}
-[22:16:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=16, y=22, z=37} fu{x=16, y=21, z=37}
-[22:16:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=16, y=22, z=37} fu{x=16, y=21, z=37}
-[22:16:46] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
-[22:16:51] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
-[22:16:52] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=23, y=24, z=44} fu{x=24, y=24, z=45}
-[22:16:52] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=23, y=24, z=44} fu{x=24, y=24, z=45}
-[22:17:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=26, y=26, z=56} fu{x=26, y=23, z=56}
-[22:18:46] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=36, y=10, z=38} fu{x=35, y=10, z=38}
-[22:18:46] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=36, y=10, z=38} fu{x=35, y=10, z=38}
-[22:18:46] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=36, y=10, z=38} fu{x=35, y=10, z=38}
-[22:21:10] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=37, y=17, z=-21} fu{x=36, y=17, z=-22}
-[22:21:11] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=35, y=17, z=-24} fu{x=35, y=18, z=-22}
-[22:22:13] [Server thread/INFO]: Czapa tried to swim in lava
-[22:23:37] [Server thread/INFO]: Czapa lost connection: Disconnected
-[22:23:37] [Server thread/INFO]: Czapa left the game
-[22:23:52] [Server thread/INFO]: Czapa[/25.99.12.20:53289] logged in with entity id 67618 at (-282.0498576023355, 63.0, -94.5583893662494)
-[22:23:52] [Server thread/INFO]: Czapa joined the game
-[22:24:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[22:25:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[22:25:53] [Server thread/INFO]: Czapa was burnt to a crisp whilst fighting Piglin
-[22:26:43] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/70472, l='ServerLevel[world]', x=-242.17, y=69.00, z=-87.85]
-[22:28:24] [Server thread/INFO]: Czapa tried to swim in lava
-[22:29:10] [Server thread/INFO]: Czapa lost connection: Disconnected
-[22:29:10] [Server thread/INFO]: Czapa left the game
-[22:29:20] [Server thread/INFO]: Czapa[/25.99.12.20:53375] logged in with entity id 71532 at (-278.0117571386202, 59.0, -115.19934358200301)
-[22:29:20] [Server thread/INFO]: Czapa joined the game
-[22:33:34] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/72554, l='ServerLevel[world]', x=-237.24, y=69.00, z=-85.94]
-[22:33:34] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/72554, l='ServerLevel[world]', x=-237.24, y=69.00, z=-85.94]
-[22:33:34] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/72554, l='ServerLevel[world]', x=-237.24, y=69.00, z=-85.94]
-[22:36:10] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/73362, l='ServerLevel[world]', x=-238.12, y=69.00, z=-87.63]
-[22:36:10] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/73362, l='ServerLevel[world]', x=-238.12, y=69.00, z=-87.63]
-[22:44:28] [Server thread/INFO]: Domador lost connection: Disconnected
-[22:44:28] [Server thread/INFO]: Domador left the game
-[22:53:48] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/77164, l='ServerLevel[world]', x=-237.21, y=69.00, z=-85.83]
-[22:54:34] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/77397, l='ServerLevel[world]', x=-238.10, y=69.00, z=-86.81]
-[22:54:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-521, y=61, z=62} fu{x=-522, y=61, z=63}
-[22:55:06] [Server thread/INFO]: redgato lost connection: Disconnected
-[22:55:06] [Server thread/INFO]: redgato left the game
-[22:58:06] [Server thread/INFO]: Domador[/25.99.18.108:53195] logged in with entity id 77825 at (-275.8806966010974, 64.0, -115.30000001192094)
-[22:58:06] [Server thread/INFO]: Domador joined the game
-[23:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
-[23:02:44] [Server thread/INFO]: redgato[/25.98.231.101:51798] logged in with entity id 78450 at (-522.6815409464311, 60.0, 63.98025453395809)
-[23:02:44] [Server thread/INFO]: redgato joined the game
-[23:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18630ms or 372 ticks behind
-[23:03:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19462ms or 389 ticks behind
-[23:03:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[23:06:40] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/79601, l='ServerLevel[world]', x=-239.86, y=69.00, z=-87.12]
-[23:06:40] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/79601, l='ServerLevel[world]', x=-239.86, y=69.00, z=-87.12]
-[23:06:40] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/79601, l='ServerLevel[world]', x=-239.86, y=69.00, z=-87.12]
-[23:07:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
-[23:08:18] [Server thread/INFO]: <Domador> [x:-39, y:61, z:72]
-[23:12:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[23:13:33] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/81210, l='ServerLevel[world]', x=-239.08, y=69.00, z=-87.13]
-[23:17:36] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/82354, l='ServerLevel[world]', x=-238.70, y=69.00, z=-87.89]
-[23:18:19] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/82521, l='ServerLevel[world]', x=-237.20, y=69.00, z=-87.19]
-[23:19:15] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/82728, l='ServerLevel[world]', x=-241.28, y=69.00, z=-88.28]
-[23:24:16] [Server thread/INFO]: redgato lost connection: Disconnected
-[23:24:16] [Server thread/INFO]: redgato left the game
-[23:28:56] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/84905, l='ServerLevel[world]', x=-241.26, y=69.00, z=-88.70]
-[23:29:38] [Server thread/INFO]: Domador lost connection: Disconnected
-[23:29:38] [Server thread/INFO]: Domador left the game
-[23:29:41] [Server thread/INFO]: Czapa lost connection: Disconnected
-[23:29:41] [Server thread/INFO]: Czapa left the game
-[23:36:23] [Server thread/INFO]: Stopping server
-[23:36:23] [Server thread/INFO]: Saving players
-[23:36:23] [Server thread/INFO]: Saving worlds
-[23:36:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:36:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:36:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:36:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:05:49] [Server thread/INFO]: Starting Minecraft server on 25.99.18.108:25565
+[11:05:49] [Server thread/INFO]: Using default channel type
+[11:06:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:06:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:06:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:06:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:06:00] [Server thread/INFO]: Preparing level "world"
+[11:06:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:06:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:06:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:06:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:06:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:06:04] [Server thread/INFO]: Preparing spawn area: 0%
+[11:06:05] [Server thread/INFO]: Preparing spawn area: 47%
+[11:06:16] [Server thread/INFO]: Time elapsed: 13961 ms
+[11:06:16] [Server thread/INFO]: Done (16.101s)! For help, type "help"
+[11:06:18] [Server thread/INFO]: redgato[/25.98.231.101:56465] logged in with entity id 471 at (-277.87459919609535, 59.0, -114.3587493762924)
+[11:06:18] [Server thread/INFO]: redgato joined the game
+[11:06:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2132ms or 42 ticks behind
+[11:06:30] [Server thread/INFO]: redgato lost connection: Disconnected
+[11:06:30] [Server thread/INFO]: redgato left the game
+[11:06:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2898ms or 57 ticks behind
+[11:06:40] [Server thread/INFO]: Domador[/25.99.18.108:50662] logged in with entity id 562 at (-632.3396028915656, 61.5, -553.6668211793184)
+[11:06:40] [Server thread/INFO]: Domador joined the game
+[11:07:21] [Server thread/INFO]: [Domador: Set own game mode to Creative Mode]
+[11:15:35] [Server thread/INFO]: [Domador: Set own game mode to Survival Mode]
+[11:33:54] [Server thread/INFO]: Domador lost connection: Disconnected
+[11:33:54] [Server thread/INFO]: Domador left the game
+[11:37:29] [Server thread/INFO]: Domador[/25.99.18.108:50746] logged in with entity id 3586 at (-628.5529036955171, 58.45695773367049, -546.7919298900009)
+[11:37:29] [Server thread/INFO]: Domador joined the game
+[12:18:49] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8804, l='ServerLevel[world]', x=-242.07, y=69.00, z=-88.73]
+[12:19:46] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8934, l='ServerLevel[world]', x=-241.37, y=69.00, z=-85.83]
+[12:20:38] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9037, l='ServerLevel[world]', x=-238.36, y=69.00, z=-86.59]
+[12:25:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9509, l='ServerLevel[world]', x=-241.70, y=69.00, z=-88.23]
+[12:26:56] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9876, l='ServerLevel[world]', x=-237.65, y=69.00, z=-89.17]
+[12:32:55] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10641, l='ServerLevel[world]', x=-241.11, y=69.00, z=-87.99]
+[12:33:01] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10651, l='ServerLevel[world]', x=-237.42, y=69.00, z=-86.99]
+[12:33:49] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10744, l='ServerLevel[world]', x=-240.48, y=69.00, z=-87.64]
+[12:39:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/11264, l='ServerLevel[world]', x=-237.65, y=69.00, z=-88.68]
+[13:22:36] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/15070, l='ServerLevel[world]', x=-642.17, y=57.00, z=-544.23]
+[13:34:35] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/15653, l='ServerLevel[world]', x=-638.70, y=57.00, z=-541.70]
+[13:37:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[13:45:22] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/18116, l='ServerLevel[world]', x=-241.31, y=69.00, z=-88.83]
+[13:54:08] [Server thread/INFO]: Domador lost connection: Disconnected
+[13:54:08] [Server thread/INFO]: Domador left the game
+[13:54:59] [Server thread/INFO]: Stopping server
+[13:54:59] [Server thread/INFO]: Saving players
+[13:54:59] [Server thread/INFO]: Saving worlds
+[13:54:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:55:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:55:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:55:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:55:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:55:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:55:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:55:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:55:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
