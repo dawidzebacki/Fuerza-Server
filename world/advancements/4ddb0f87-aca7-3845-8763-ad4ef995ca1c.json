@@ -646,6 +646,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2020-08-14 10:49:34 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2020-08-05 20:52:53 +0200"
@@ -1199,6 +1205,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2020-08-14 10:49:34 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2020-08-04 22:13:46 +0200"
@@ -1519,6 +1531,7 @@
       "cooked_mutton": "2020-08-05 17:29:15 +0200",
       "cooked_beef": "2020-08-05 00:09:34 +0200",
       "beef": "2020-08-09 15:03:36 +0200",
+      "potato": "2020-08-14 10:12:58 +0200",
       "cooked_rabbit": "2020-08-05 23:02:54 +0200",
       "cooked_chicken": "2020-08-05 17:19:00 +0200",
       "carrot": "2020-08-12 22:29:31 +0200"
@@ -1534,6 +1547,12 @@
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2020-08-11 22:05:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2020-08-14 10:49:34 +0200"
     },
     "done": true
   },
