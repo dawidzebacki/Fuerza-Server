@@ -1,17 +1,17 @@
-[22:55:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[22:55:52] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:55:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:55:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:55:52] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:55:52] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:55:52] [main/INFO]: Reloading ResourceManager: Default
-[22:55:54] [Worker-Main-11/INFO]: Loaded 7 recipes
-[22:55:55] [Worker-Main-11/INFO]: Loaded 927 advancements
-[22:55:58] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[22:55:58] [Server thread/INFO]: Loading properties
-[22:55:58] [Server thread/INFO]: Default game type: SURVIVAL
-[22:55:58] [Server thread/INFO]: Generating keypair
-[22:55:58] [Server console handler/ERROR]: Exception handling console input
+[18:29:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[18:29:19] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:29:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:29:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:29:19] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:29:19] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:29:19] [main/INFO]: Reloading ResourceManager: Default
+[18:29:19] [Worker-Main-6/INFO]: Loaded 7 recipes
+[18:29:20] [Worker-Main-6/INFO]: Loaded 927 advancements
+[18:29:22] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[18:29:22] [Server thread/INFO]: Loading properties
+[18:29:22] [Server thread/INFO]: Default game type: SURVIVAL
+[18:29:22] [Server thread/INFO]: Generating keypair
+[18:29:22] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Nieprawid³owe dojœcie
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
@@ -25,33 +25,111 @@ java.io.IOException: Nieprawid³owe dojœcie
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
 	at yd$1.run(SourceFile:90) [server.jar:?]
-[22:55:58] [Server thread/INFO]: Starting Minecraft server on 25.99.12.20:25565
-[22:55:58] [Server thread/INFO]: Using default channel type
-[22:56:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:56:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:56:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:56:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:56:04] [Server thread/INFO]: Preparing level "world"
-[22:56:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:56:08] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:08] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:08] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:08] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:08] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:08] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:09] [Server thread/INFO]: Preparing spawn area: 0%
-[22:56:14] [Server thread/INFO]: Time elapsed: 8678 ms
-[22:56:14] [Server thread/INFO]: Done (10.588s)! For help, type "help"
-[22:56:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[22:56:24] [Server thread/INFO]: Stopping server
-[22:56:24] [Server thread/INFO]: Saving players
-[22:56:24] [Server thread/INFO]: Saving worlds
-[22:56:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:56:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:56:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:29:22] [Server thread/INFO]: Starting Minecraft server on 25.98.231.101:25565
+[18:29:22] [Server thread/INFO]: Using default channel type
+[18:29:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:29:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:29:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:29:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:29:22] [Server thread/INFO]: Preparing level "world"
+[18:29:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:29:24] [Server thread/INFO]: Preparing spawn area: 0%
+[18:29:24] [Server thread/INFO]: Preparing spawn area: 0%
+[18:29:24] [Server thread/INFO]: Preparing spawn area: 0%
+[18:29:25] [Server thread/INFO]: Preparing spawn area: 34%
+[18:29:27] [Server thread/INFO]: Time elapsed: 3648 ms
+[18:29:27] [Server thread/INFO]: Done (4.298s)! For help, type "help"
+[18:36:30] [Server thread/INFO]: Domador[/25.99.18.108:50110] logged in with entity id 572 at (-295.06339191179535, 63.0, -110.65722223850251)
+[18:36:30] [Server thread/INFO]: Domador joined the game
+[18:38:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
+[18:39:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2096ms or 41 ticks behind
+[18:39:42] [Server thread/INFO]: redgato[/25.98.231.101:63056] logged in with entity id 1094 at (-282.6808462985277, 64.0, -109.31513565129852)
+[18:39:42] [Server thread/INFO]: redgato joined the game
+[18:39:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[18:43:25] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/1538, l='ServerLevel[world]', x=-240.80, y=69.00, z=-88.57]
+[18:43:25] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/1538, l='ServerLevel[world]', x=-240.80, y=69.00, z=-88.57]
+[18:48:56] [Server thread/WARN]: Boat (vehicle of Domador) moved wrongly! 0.33606278104741705
+[18:48:56] [Server thread/WARN]: Boat (vehicle of Domador) moved wrongly! 0.590444807519134
+[18:49:02] [Server thread/WARN]: Boat (vehicle of Domador) moved wrongly! 0.3581962665798528
+[18:49:02] [Server thread/WARN]: Boat (vehicle of Domador) moved wrongly! 0.6205798935615121
+[18:49:52] [Server thread/INFO]: [redgato: Set the time to 1000]
+[18:50:04] [Server thread/WARN]: Boat (vehicle of Domador) moved wrongly! 0.38275573833419685
+[18:52:04] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/4140, l='ServerLevel[world]', x=-241.71, y=69.00, z=-87.07]
+[18:52:04] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/4140, l='ServerLevel[world]', x=-241.71, y=69.00, z=-87.07]
+[19:05:55] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:08:15] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6079, l='ServerLevel[world]', x=-238.84, y=69.00, z=-89.17]
+[19:08:15] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6079, l='ServerLevel[world]', x=-238.84, y=69.00, z=-89.17]
+[19:09:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6289, l='ServerLevel[world]', x=-237.65, y=69.00, z=-87.83]
+[19:09:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6289, l='ServerLevel[world]', x=-237.65, y=69.00, z=-87.83]
+[19:11:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6443, l='ServerLevel[world]', x=-239.42, y=69.00, z=-86.25]
+[19:11:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6443, l='ServerLevel[world]', x=-239.42, y=69.00, z=-86.25]
+[19:13:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6765, l='ServerLevel[world]', x=-237.66, y=69.00, z=-85.83]
+[19:13:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/6765, l='ServerLevel[world]', x=-237.66, y=69.00, z=-85.83]
+[19:16:10] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/7034, l='ServerLevel[world]', x=-240.32, y=69.00, z=-86.54]
+[19:16:10] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/7034, l='ServerLevel[world]', x=-240.32, y=69.00, z=-86.54]
+[19:18:47] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:25:20] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8274, l='ServerLevel[world]', x=-239.45, y=69.00, z=-87.72]
+[19:25:20] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8274, l='ServerLevel[world]', x=-239.45, y=69.00, z=-87.72]
+[19:28:43] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:28:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8662, l='ServerLevel[world]', x=-242.17, y=69.00, z=-88.76]
+[19:28:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8662, l='ServerLevel[world]', x=-242.17, y=69.00, z=-88.76]
+[19:31:10] [Server thread/INFO]: [Domador: Set own game mode to Creative Mode]
+[19:33:32] [Server thread/INFO]: [redgato: Set the weather to clear]
+[19:33:39] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:34:06] [Server thread/INFO]: [Domador: Set own game mode to Survival Mode]
+[19:34:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9514, l='ServerLevel[world]', x=-239.82, y=69.00, z=-85.83]
+[19:34:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9514, l='ServerLevel[world]', x=-239.82, y=69.00, z=-85.83]
+[19:34:23] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9551, l='ServerLevel[world]', x=-241.78, y=69.00, z=-87.85]
+[19:34:23] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/9551, l='ServerLevel[world]', x=-241.78, y=69.00, z=-87.85]
+[19:38:40] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:38:44] [Server thread/INFO]: [redgato: Set the weather to clear]
+[19:39:39] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10162, l='ServerLevel[world]', x=-237.66, y=69.00, z=-85.83]
+[19:39:39] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10162, l='ServerLevel[world]', x=-237.66, y=69.00, z=-85.83]
+[19:43:59] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10676, l='ServerLevel[world]', x=-239.07, y=69.00, z=-88.62]
+[19:43:59] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10676, l='ServerLevel[world]', x=-239.07, y=69.00, z=-88.62]
+[19:44:07] [Server thread/INFO]: [redgato: Set the weather to clear]
+[19:44:08] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:44:50] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10805, l='ServerLevel[world]', x=-240.50, y=69.00, z=-85.83]
+[19:44:50] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10805, l='ServerLevel[world]', x=-240.50, y=69.00, z=-85.83]
+[19:45:08] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10832, l='ServerLevel[world]', x=-238.69, y=69.00, z=-87.50]
+[19:45:08] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/10832, l='ServerLevel[world]', x=-238.69, y=69.00, z=-87.50]
+[19:49:15] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:49:16] [Server thread/INFO]: [redgato: Set the weather to clear]
+[19:52:35] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/11870, l='ServerLevel[world]', x=-241.34, y=69.00, z=-87.14]
+[19:52:35] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/11870, l='ServerLevel[world]', x=-241.34, y=69.00, z=-87.14]
+[19:54:20] [Server thread/INFO]: [redgato: Set the weather to clear]
+[19:55:29] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/12209, l='ServerLevel[world]', x=-241.01, y=69.00, z=-88.23]
+[19:55:29] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/12209, l='ServerLevel[world]', x=-241.01, y=69.00, z=-88.23]
+[19:55:30] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
+[19:56:05] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
+[19:56:38] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
+[19:56:48] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
+[19:59:16] [Server thread/INFO]: [redgato: Set the time to 1000]
+[19:59:17] [Server thread/INFO]: [redgato: Set the weather to clear]
+[20:02:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/13012, l='ServerLevel[world]', x=-237.52, y=69.00, z=-86.75]
+[20:02:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/13012, l='ServerLevel[world]', x=-237.52, y=69.00, z=-86.75]
+[20:02:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/13073, l='ServerLevel[world]', x=-239.43, y=69.00, z=-85.83]
+[20:02:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/13073, l='ServerLevel[world]', x=-239.43, y=69.00, z=-85.83]
+[20:03:55] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
+[20:04:23] [Server thread/INFO]: [redgato: Set the weather to clear]
+[20:06:28] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
+[20:06:31] [Server thread/INFO]: [redgato: Set own game mode to Creative Mode]
+[20:07:05] [Server thread/INFO]: [redgato: Set own game mode to Survival Mode]
+[20:08:06] [Server thread/INFO]: redgato lost connection: Disconnected
+[20:08:06] [Server thread/INFO]: redgato left the game
+[20:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-276, y=66, z=-150} fu{x=-277, y=66, z=-152}
+[20:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-276, y=66, z=-150} fu{x=-277, y=66, z=-152}
+[20:09:24] [Server thread/INFO]: Domador lost connection: Disconnected
+[20:09:24] [Server thread/INFO]: Domador left the game
+[20:09:42] [Server thread/INFO]: Stopping server
+[20:09:42] [Server thread/INFO]: Saving players
+[20:09:42] [Server thread/INFO]: Saving worlds
+[20:09:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:09:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:09:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:09:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
